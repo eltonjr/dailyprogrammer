@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Test {
+public class Main {
 
 	public static void main(String[] args) {
 			final String TEMPLATE = "++--***...";
@@ -20,7 +20,7 @@ public class Test {
 							}
 			}
 
-			System.out.println(Test.transpose(output));
+			System.out.println(Main.transpose(output));
 	}
 
 	public static String transpose(String input){
